@@ -18,4 +18,8 @@ bool bfs(const Graph &graph, Place start, Place goal,
          Place path[], int pathRoutes[], int &pathLength);
 bool isConnected(const Graph &graph);
 
+/* menu actions */
+void checkBFS(const Graph &graph);
+void checkDFS(const Graph &graph);
+
 #endif
