@@ -36,6 +36,8 @@ Using **Graph Theory**, the city is modeled as an **undirected, weighted graph**
 
 ## 3. Data Structures & Algorithms
 
+For implementation details of the graph traversal and path-reporting utilities, see [TRAVERSAL.md](TRAVERSAL.md).
+
 ### Data Structures
 
 - **Adjacency List (`Graph`)**:
