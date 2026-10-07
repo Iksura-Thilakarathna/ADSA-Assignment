@@ -13,4 +13,9 @@ Journey measureJourney(const Place path[],
 void printPath(const Place path[],
                const int pathRoutes[], int length);
 
+/* algorithms */
+bool bfs(const Graph &graph, Place start, Place goal,
+         Place path[], int pathRoutes[], int &pathLength);
+bool isConnected(const Graph &graph);
+
 #endif
